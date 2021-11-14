@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+nav {
+    background: #00AB93;
+    height: 50px;
+}
+
+.centralizadorUniversal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#siteWindow {
+    height: 5000px;
+}
+
+#mainNav img {
+    width: 60px;
+}
+
+#div_navLogo {
+    display: flex;
+    align-items: center;
+    left: 3%;
+    //justify-content: center;
+}
+#dropdownMenu{
+    display: flex;
+    align-items: right;
+}

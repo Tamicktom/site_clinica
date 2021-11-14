@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+nav {
+  background: #00AB93;
+  height: 50px;
+}
+
+.centralizadorUniversal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#siteWindow {
+  height: 5000px;
+}
+
+#mainNav img {
+  width: 60px;
+}
+
+#div_navLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 3%;
+}
+
+#dropdownMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+/*# sourceMappingURL=home.css.map */
