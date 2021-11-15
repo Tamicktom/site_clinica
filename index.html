@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/mainSection.css">
     <title>Clinica Lorem</title>
 </head>
 
@@ -25,35 +26,46 @@
                     <img class="img-fluid" src="sources/images/white_logo_mini.png" alt="Logo pequeno">
                 </div>
 
-                    <!-- *Menu dropdown -->
-                    <div class="col-3 dropdown" id="dropdownMenu">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color:#00AB93; border:none;">
-                            Mais
-                        </button>
-                        <div id="dropdown-Div-MenuItens" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Serviços</a>
-                            <a class="dropdown-item" href="#">Contato</a>
-                            <a class="dropdown-item" href="#">Agendar<br/> consulta</a>
-                            <a class="dropdown-item" href="#">Endereço</a>
-                            <a class="dropdown-item" href="#">Casos de<br/>sucesso</a>
-                        </div>
+                <!-- *Menu dropdown -->
+                <div class="col-3 dropdown" id="dropdownMenu">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="background-color:#00AB93; border:none;">
+                        Mais
+                    </button>
+                    <div id="dropdown-Div-MenuItens" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Serviços</a>
+                        <a class="dropdown-item" href="#">Contato</a>
+                        <a class="dropdown-item" href="#">Agendar<br /> consulta</a>
+                        <a class="dropdown-item" href="#">Endereço</a>
+                        <a class="dropdown-item" href="#">Casos de<br />sucesso</a>
                     </div>
-                
+                </div>
+
             </nav>
         </header>
-
-        <section>
-            <div>
-                <div>Dra Lorem Ipsum</div>
+        <section id="mainBanner" class="container">
+            <div id="div-Logo-mainBanner" class="row">
+                <div class="col justify-center">
+                    <img class="centerItself" src="sources/images/dark_logo_big.png" alt="">
+                    <span class="centerItself bookAntiqua15">Dra Lorem Ipsum</span>
+                </div>
             </div>
-            <div>
-                <div>Imagem principal</div>
-                <div>Psicóloga especializada</div>
+            <div id="divHold-mainImage" class="row">
+                <div class="col-6 centralizadorUniversal">
+                    <img id="mainImage" src="sources/images/main_image.png" alt="">
+                </div>
+                <div id="divHold-MainRight" class="col-6 container">
+                    <div id="mainBannerUpTxt" class="row">
+                        <div><span id="goDown" class="adam25">Psicóloga especializada</span></div>
+                        <div><span class="bookAntiqua38"><strong>Dra. Lorem,</strong> Cuidando da sua saúde mental</span></div>
+                    </div>
+                    <div id="mainBannerDownTxt" class="row align-items-end"><button class="mainBannerButton"><span>Saiba Mais</span></button></div>
+                </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="container">
+            <div class="row">
                 <h1>Carrousel Here</h1>
             </div>
         </section>
