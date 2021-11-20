@@ -1,0 +1,23 @@
+#secondSection {
+  width: 100%;
+  height: 650px;
+  background: cyan;
+  margin-top: 75px;
+  overflow: hidden;
+}
+
+#secondSection h2 {
+  font-family: Adam;
+  font-size: 20pt;
+}
+
+#carouselServices {
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner > div {
+  height: 650px;
+}
+/*# sourceMappingURL=mainCarousel.css.map */
