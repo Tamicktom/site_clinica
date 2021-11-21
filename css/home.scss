@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #03A688;
+    --secondary-color: #344459;
+    --third-color: #02735E;
+    --forty-color: #F29BAB;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +12,7 @@
 }
 
 nav {
-    background: #00AB93;
+    background: var(--primary-color);
     height: 50px;
 }
 
@@ -29,7 +36,8 @@ nav {
     left: 3%;
     //justify-content: center;
 }
-#dropdownMenu{
+
+#dropdownMenu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,10 +53,12 @@ nav {
     font-family: BookAntiqua;
     font-size: 25pt;
 }
+
 .bookAntiqua35 {
     font-family: BookAntiqua;
     font-size: 35pt;
 }
+
 .bookAntiqua38 {
     font-family: BookAntiqua;
     font-size: 38pt;

@@ -1,7 +1,6 @@
 #secondSection {
   width: 100%;
   height: 650px;
-  background: cyan;
   overflow: hidden;
 }
 
@@ -11,7 +10,6 @@
 }
 
 #carouselServices {
-  background: red;
   height: 100%;
   width: 100%;
 }
@@ -38,5 +36,9 @@
 #div_services h2 {
   font-family: Adam;
   font-size: 50pt;
+}
+
+.carouselTxt {
+  background-color: var(--primary-color);
 }
 /*# sourceMappingURL=mainCarousel.css.map */

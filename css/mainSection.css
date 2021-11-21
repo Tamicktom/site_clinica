@@ -83,9 +83,7 @@
 }
 
 .mainBannerButton {
-  background: #344459;
-  background-image: -o-linear-gradient(top, #344459, #2A384A);
-  background-image: -webkit-gradient(to bottom, #344459, #2A384A);
+  background: var(--secondary-color);
   border-radius: 10px;
   color: #FFFFFF;
   font-family: Adam;

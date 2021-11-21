@@ -49,7 +49,8 @@
     width: 85%;
     transition: all 0.5s;
 }
-#mainImage:hover{
+
+#mainImage:hover {
     width: 86%;
 }
 
@@ -61,10 +62,12 @@
     //background: magenta;
     height: 100%;
 }
-#divHold-MainRight > div{
+
+#divHold-MainRight>div {
     width: 100%;
     height: 50%;
 }
+
 #mainBannerUpTxt {
     height: 25%;
 }
@@ -80,18 +83,14 @@
     //height: 50%;
     //background: gray;
 }
-#goDown{
+
+#goDown {
     position: relative;
     top: 50px;
 }
 
 .mainBannerButton {
-    background: #344459;
-    background-image: -webkit-linear-gradient(top, #344459, #2A384A);
-    background-image: -moz-linear-gradient(top, #344459, #2A384A);
-    background-image: -ms-linear-gradient(top, #344459, #2A384A);
-    background-image: -o-linear-gradient(top, #344459, #2A384A);
-    background-image: -webkit-gradient(to bottom, #344459, #2A384A);
+    background: var(--secondary-color);
     border-radius: 10px;
     color: #FFFFFF;
     font-family: Adam;
@@ -103,4 +102,4 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}

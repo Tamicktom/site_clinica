@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #03A688;
+  --secondary-color: #344459;
+  --third-color: #02735E;
+  --forty-color: #F29BAB;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +12,7 @@
 }
 
 nav {
-  background: #00AB93;
+  background: var(--primary-color);
   height: 50px;
 }
 
