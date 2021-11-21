@@ -2,9 +2,10 @@
     width: 100%;
     height: 650px;
     background: cyan;
-    margin-top: 75px;
+    //margin-top: 75px;
     overflow: hidden;
 }
+
 #secondSection h2 {
     font-family: Adam;
     font-size: 20pt;
@@ -16,6 +17,20 @@
     width: 100%;
 }
 
-.carousel-inner > div {
+.carousel-inner>div {
     height: 650px;
- }
+}
+
+#div_services {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+#div_services h2 {
+    font-family: Adam;
+    font-size: 50pt;
+}
