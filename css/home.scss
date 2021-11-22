@@ -1,14 +1,33 @@
 :root {
+    //* Paleta principal da página
     --primary-color: #03A688;
+    --primary-color-t: #03a688ce;
     --secondary-color: #344459;
     --third-color: #02735E;
     --forty-color: #F29BAB;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--third-color);
 }
 
 * {
     padding: 0;
     margin: 0;
     border: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -23,7 +42,7 @@ nav {
 }
 
 #siteWindow {
-    height: 5000px;
+    height: 1500px;
 }
 
 #mainNav img {

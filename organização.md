@@ -5,7 +5,7 @@ Criar um site para uma clinica na área de saúde, o site deve conter uma pagina
 # Página inicial - Checked
 # Menu dropdown - Checked
 # Banner Rotativo - Checked
-# Informações sobre os serviços prestados - 
+# Informações sobre os serviços prestados - Checked
 # Informações de endereço e localização via google maps - 
 
 # Segunda página 

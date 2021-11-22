@@ -14,6 +14,11 @@
   width: 100%;
 }
 
+.carousel-inner {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
 .carousel-inner > div {
   height: 650px;
 }
@@ -39,6 +44,7 @@
 }
 
 .carouselTxt {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-t);
+  border-radius: 15px;
 }
 /*# sourceMappingURL=mainCarousel.css.map */
