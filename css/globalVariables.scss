@@ -1,0 +1,92 @@
+:root {
+    //* Paleta principal da página
+    --primary-color: #03A688;
+    --primary-color-t: #03a688ce;
+    --secondary-color: #344459;
+    --third-color: #02735E;
+    --forty-color: #F29BAB;
+}
+
+//* Fonts usadas que serão utilizadas
+@font-face {
+    font-family: Adam;
+    src: url(/sources/fonts/adam.cg_pro.otf);
+}
+
+@font-face {
+    font-family: BookAntiqua;
+    src: url(/sources/fonts/BKANT.TTF);
+}
+
+@font-face {
+    font-family: BookAntiquaBold;
+    src: url(/sources/fonts/ANTQUAB.TTF);
+}
+
+
+//Estilização da scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--third-color);
+}
+
+//* Reset de atributos globais
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.centralizadorUniversal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//* Fonts e tamanhos
+.bookAntiqua15 {
+    font-family: BookAntiqua;
+    font-size: 15pt;
+}
+
+.bookAntiqua25 {
+    font-family: BookAntiqua;
+    font-size: 25pt;
+}
+
+.bookAntiqua35 {
+    font-family: BookAntiqua;
+    font-size: 35pt;
+}
+
+.bookAntiqua38 {
+    font-family: BookAntiqua;
+    font-size: 38pt;
+}
+
+.adam15 {
+    font-family: Adam;
+    font-size: 15pt;
+}
+
+.adam20 {
+    font-family: Adam;
+    font-size: 20pt;
+}
+
+.adam25 {
+    font-family: Adam;
+    font-size: 25pt;
+}
