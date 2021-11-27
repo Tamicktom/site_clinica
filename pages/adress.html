@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Contact us page -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/globalVariables.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/adress.css">
+    <title>Clinica Lorem - Contato</title>
+</head>
+
+<body>
+    <div id="page_window" class="container-fluid">
+        <header class="w-100">
+            <nav id="mainNav" class="row">
+                <div id="div_navLogo" class="col-9">
+                    <a href="../index.html"><img class="img-fluid" src="../sources/images/white_logo_mini.png"
+                            alt="Logo pequeno" /></a>
+                </div>
+                <!-- *Menu dropdown -->
+                <div class="col-3 dropdown" id="dropdownMenu">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="background-color:var(--primary-color); border:none;">
+                        Mais
+                    </button>
+                    <div id="dropdown-Div-MenuItens" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="../index.html">Serviços</a>
+                        <a class="dropdown-item" href="contact.html">Contato</a>
+                        <a class="dropdown-item" href="schedule.html">Agendar<br />
+                            consulta</a>
+                        <!--
+                          <a class="dropdown-item" href="#">Casos de<br />sucesso</a>
+                      -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="sectionAdress" class="container-fluid">
+            <div class="row">
+                <div class="col-6 centralizadorUniversal">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.4988260199427!2d-50.5460184546034!3d-20.27098306091577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94982f2dc71fa595%3A0x7c51fdf240bb5cd3!2sR.%20Seis%2C%202554%20-%20Centro%2C%20Jales%20-%20SP%2C%2015700-060!5e1!3m2!1spt-BR!2sbr!4v1638030258999!5m2!1spt-BR!2sbr"
+                        width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-6 centralizadorUniversal">
+                    <div id="txtAdress">
+                        <h1 class="adam25">Endereço</h1>
+                        <p class="bookAntiqua15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in
+                            totam
+                            incidunt aperiam voluptates quibusdam nemo, hic ducimus facere odit omnis voluptate aut,
+                            neque
+                            inventore! Tempora cumque quidem delectus repellendus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- Local scripts -->
+    <script src="../libs/animeJs/anime.min.js"></script>
+    <script src="../libs/vibrant/vibrant.js"></script>
+    <!-- Serve para gerar o tema do site baseado em alguma imagem -->
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>

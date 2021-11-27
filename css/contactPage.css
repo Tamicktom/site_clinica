@@ -1,0 +1,52 @@
+#pageWindow {
+  width: 100%;
+  height: 100vh;
+}
+
+#sectionContact {
+  height: 600px;
+  width: 100%;
+}
+
+#divContact {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#divContact h1 {
+  color: var(--primary-color);
+}
+
+#divContact p {
+  color: var(--primary-color);
+}
+
+.divAlignCenter {
+  width: 100%;
+  height: 15%;
+}
+
+#social_media {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#social_media a {
+  width: 10%;
+}
+
+#social_media img {
+  width: 100%;
+}
+/*# sourceMappingURL=contactPage.css.map */

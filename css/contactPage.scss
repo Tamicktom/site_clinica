@@ -1,4 +1,46 @@
-#pageWindow{
+#pageWindow {
     width: 100%;
     height: 100vh;
+}
+
+#sectionContact {
+    height: 600px;
+    width: 100%;
+}
+
+#divContact {
+    //background: red;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#divContact h1 {
+    color: var(--primary-color);
+}
+
+#divContact p {
+    color: var(--primary-color);
+}
+
+.divAlignCenter {
+    width: 100%;
+    height: 15%;
+}
+
+#social_media {
+    //background: cyan;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#social_media a {
+    width: 10%;
+}
+
+#social_media img {
+    width: 100%;
 }

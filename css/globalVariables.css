@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #03A688;
+  --primary-color-t: #03a688ce;
+  --secondary-color: #344459;
+  --third-color: #02735E;
+  --forty-color: #F29BAB;
+}
+
+@font-face {
+  font-family: Adam;
+  src: url(/sources/fonts/adam.cg_pro.otf);
+}
+
+@font-face {
+  font-family: BookAntiqua;
+  src: url(/sources/fonts/BKANT.TTF);
+}
+
+@font-face {
+  font-family: BookAntiquaBold;
+  src: url(/sources/fonts/ANTQUAB.TTF);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--third-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.centralizadorUniversal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bookAntiqua15 {
+  font-family: BookAntiqua;
+  font-size: 15pt;
+}
+
+.bookAntiqua25 {
+  font-family: BookAntiqua;
+  font-size: 25pt;
+}
+
+.bookAntiqua35 {
+  font-family: BookAntiqua;
+  font-size: 35pt;
+}
+
+.bookAntiqua38 {
+  font-family: BookAntiqua;
+  font-size: 38pt;
+}
+
+.adam15 {
+  font-family: Adam;
+  font-size: 15pt;
+}
+
+.adam20 {
+  font-family: Adam;
+  font-size: 20pt;
+}
+
+.adam25 {
+  font-family: Adam;
+  font-size: 25pt;
+}
+/*# sourceMappingURL=globalVariables.css.map */

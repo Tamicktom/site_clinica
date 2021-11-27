@@ -1,0 +1,25 @@
+#pageWindow {
+    width: 100%;
+    height: 100vh;
+}
+
+#sectionAdress {
+    height: 600px;
+    //background: red;
+}
+
+#sectionAdress>div {
+    //background: cyan;
+    height: 100%;
+    //width: 50%;
+}
+
+#txtAdress {
+    width: 95%;
+    height: 80%;
+    color: var(--secondary-color);
+    //background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

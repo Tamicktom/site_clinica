@@ -1,96 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- Contact us page -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Contact us page -->
 
-    <link rel="stylesheet" href="../css/globalVariables.css" />
-    <link rel="stylesheet" href="../css/home.css" />
-    <link rel="stylesheet" href="../css/contactPage.css" />
-    <title>Clinica Lorem</title>
-  </head>
-  <body>
-    <div id="page_window">
-      <header>
-        <nav id="mainNav" class="row">
-          <div id="div_navLogo" class="col-9">
-            <img
-              class="img-fluid"
-              src="sources/images/white_logo_mini.png"
-              alt="Logo pequeno"
-            />
-          </div>
-          <!-- *Menu dropdown -->
-          <div class="col-3 dropdown" id="dropdownMenu">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              style="background-color:var(--primary-color); border:none;"
-            >
-              Mais
-            </button>
-            <div
-              id="dropdown-Div-MenuItens"
-              class="dropdown-menu"
-              aria-labelledby="dropdownMenuButton"
-            >
-              <a class="dropdown-item" href="#div_services">Serviços</a>
-              <a class="dropdown-item" href="#">Contato</a>
-              <a class="dropdown-item" href="#"
-                >Agendar<br />
-                consulta</a
-              >
-              <a class="dropdown-item" href="#">Endereço</a>
-              <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../css/globalVariables.css" />
+  <link rel="stylesheet" href="../css/home.css" />
+  <link rel="stylesheet" href="../css/contactPage.css" />
+  <title>Clinica Lorem - Contato</title>
+</head>
+
+<body>
+  <div id="page_window" class="container-fluid">
+    <header class="w-100">
+      <nav id="mainNav" class="row">
+        <div id="div_navLogo" class="col-9">
+          <a href="../index.html"><img class="img-fluid" src="../sources/images/white_logo_mini.png"
+              alt="Logo pequeno" /></a>
+        </div>
+        <!-- *Menu dropdown -->
+        <div class="col-3 dropdown" id="dropdownMenu">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="background-color:var(--primary-color); border:none;">
+            Mais
+          </button>
+          <div id="dropdown-Div-MenuItens" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Agendar<br />
+              consulta</a>
+            <a class="dropdown-item" href="adress.html">Endereço</a>
+            <!--
                           <a class="dropdown-item" href="#">Casos de<br />sucesso</a>
                       -->
-            </div>
-          </div>
-        </nav>
-      </header>
-      <section>
-        <div>
-          <h1>Contato</h1>
-          <p>Você pode me encontrar nas redes sociais</p>
-          <div id="social_media">
-            <a href=""><img src="../sources/images/youtube_icon.svg" alt="" /></a>
-            <a href=""
-              ><img src="../sources/images/telegram_icon.svg" alt=""
-            /></a>
-            <a href=""><img src="../sources/images/twitter_icon.svg" alt="" /></a>
-            <a href=""
-              ><img src="../sources/images/whatsapp_icon.svg" alt=""
-            /></a>
-            <a href=""
-              ><img src="../sources/images/messenger_icon.svg" alt=""
-            /></a>
-            <a href=""
-              ><img src="../sources/images/facebook_icon.svg" alt=""
-            /></a>
-            <a href=""
-              ><img src="../sources/images/instagram_icon.svg" alt=""
-            /></a>
           </div>
         </div>
-      </section>
-    </div>
-    <!-- Local scripts -->
-    <script src="../libs/animeJs/anime.min.js"></script>
-    <script src="../libs/vibrant/vibrant.js"></script>
-    <!-- Serve para gerar o tema do site baseado em alguma imagem -->
-    <script src="../scripts/index.js"></script>
-  </body>
+      </nav>
+    </header>
+
+    <!-- * Section principal da página * -->
+    <section id="sectionContact">
+
+      <!-- * Div principal * -->
+      <div id="divContact" class="container-fluid">
+        <div class="divAlignCenter centralizadorUniversal">
+          <h1 class="adam25">Contato</h1>
+        </div>
+        <div class="divAlignCenter centralizadorUniversal">
+          <p class="bookAntiqua15">Você pode me encontrar nas redes sociais</p>
+        </div>
+        <div id="social_media">
+          <a href=""><img src="../sources/images/youtube_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/telegram_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/twitter_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/whatsapp_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/messenger_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/facebook_icon.svg" alt="" /></a>
+          <a href=""><img src="../sources/images/instagram_icon.svg" alt="" /></a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+  <!-- Local scripts -->
+  <script src="../libs/animeJs/anime.min.js"></script>
+  <script src="../libs/vibrant/vibrant.js"></script>
+  <!-- Serve para gerar o tema do site baseado em alguma imagem -->
+  <script src="../scripts/index.js"></script>
+</body>
+
 </html>

@@ -9,6 +9,11 @@
   font-size: 20pt;
 }
 
+#secondSection p {
+  font-family: BookAntiqua;
+  padding: 2%;
+}
+
 #carouselServices {
   height: 100%;
   width: 100%;
