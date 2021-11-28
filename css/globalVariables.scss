@@ -10,30 +10,42 @@
 //* Fonts usadas que serão utilizadas
 @font-face {
     font-family: Adam;
-    src: url(/sources/fonts/adam.cg_pro.otf);
+    src: url(../sources/fonts/adam.cg_pro.otf);
 }
 
 @font-face {
     font-family: BookAntiqua;
-    src: url(/sources/fonts/BKANT.TTF);
+    src: url(../sources/fonts/BKANT.TTF);
 }
 
 @font-face {
     font-family: BookAntiquaBold;
-    src: url(/sources/fonts/ANTQUAB.TTF);
+    src: url(../sources/fonts/ANTQUAB.TTF);
 }
 
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 //Estilização da scrollbar
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--secondary-color);
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--primary-color);
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: var(--third-color);
 }
@@ -89,4 +101,8 @@ html {
 .adam25 {
     font-family: Adam;
     font-size: 25pt;
+}
+
+.width75 {
+    width: 75%;
 }

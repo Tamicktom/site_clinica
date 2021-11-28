@@ -17,11 +17,11 @@
 }
 
 #divContact h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 #divContact p {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .divAlignCenter {

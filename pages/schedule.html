@@ -13,8 +13,9 @@
 
     <link rel="stylesheet" href="../css/globalVariables.css" />
     <link rel="stylesheet" href="../css/home.css" />
-    <link rel="stylesheet" href="../css/schedule.css">
-    <title>Clinica Lorem - Contato</title>
+    <link rel="stylesheet" href="../css/mainFooter.css" />
+    <link rel="stylesheet" href="../css/schedule.css" />
+    <title>Clinica Lorem - Agendar Consulta</title>
 </head>
 
 <body>
@@ -35,29 +36,76 @@
                     <div id="dropdown-Div-MenuItens" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="../index.html">Serviços</a>
                         <a class="dropdown-item" href="contact.html">Contato</a>
-                        <a class="dropdown-item" href="#">Agendar<br />
-                            consulta</a>
-                        <!--
-                          <a class="dropdown-item" href="#">Casos de<br />sucesso</a>
-                      -->
+                        <a class="dropdown-item" href="adress.html">Endereço</a>
                     </div>
                 </div>
             </nav>
         </header>
 
-        
-
-
-
-
-
-        
+        <section id="sectionSchedule" class="centralizadorUniversal row">
+            <div class="col-6 colunaCentro centerTxt">
+                <h1 class="adam25 padding5">Agendar uma consulta</h1>
+                <p class="bookAntiqua15 padding5 centerTxt">Para agendar uma consulta é muito simples, basta preencher o
+                    formulário ao lado e responderemos por
+                    telefone ou email para agendar um horário.</p>
+                <p class="bookAntiqua15 padding5 centerTxt">Seus dados são confidenciais e não compartilharemos com
+                    ninguém.</p>
+            </div>
+            <div id="holdForm" class="col-6">
+                <form>
+                    <div class="form-group colunaCentro">
+                        <label class="adam15" for="nomePaciente">Nome</label>
+                        <input type="text" class="form-control" id="nomePaciente" aria-describedby="nomeHelp"
+                            placeholder="Coloque seu nome aqui">
+                    </div>
+                    <div class="form-group colunaCentro">
+                        <label class="adam15" for="enderecoPaciente">Endereço</label>
+                        <input type="text" class="form-control" id="enderecoPaciente" aria-describedby="nomeHelp"
+                            placeholder="Coloque seu endereço aqui">
+                        <small id="enderecoHelp" class="form-text text-muted">Digite o endereço completo</small>
+                    </div>
+                    <div class="form-group colunaCentro">
+                        <label class="adam15" for="emailPaciente">Email</label>
+                        <input type="email" class="form-control" id="emailPaciente" aria-describedby="emailHelp"
+                            placeholder="Coloque seu endereço de email">
+                    </div>
+                    <div class="form-group colunaCentro">
+                        <label class="adam15" for="cpfPaciente">CPF</label>
+                        <input type="text" name="cnpj" maxlength="14" onkeypress="mascaraUser(this, cpfCnpj)"
+                            onblur="clearTimeout()" class="form-control" id="cpfPaciente" aria-describedby="cpfHelp"
+                            placeholder="Coloque seu CPF aqui" />
+                    </div>
+                    <div class="form-group colunaCentro">
+                        <label class="adam15" for="telefonePaciente">Telefone</label>
+                        <input type="number" class="form-control" id="telefonePaciente" aria-describedby="telefoneHelp"
+                            placeholder="Coloque seu telefone aqui">
+                    </div>
+                    <div class="form-group colunaCentro"><button type="submit"
+                            class="btn btn-primary adam15">Agendar</button></div>
+                </form>
+            </div>
+        </section>
 
     </div>
-    <!-- Local scripts -->
-    <script src="../libs/animeJs/anime.min.js"></script>
-    <script src="../libs/vibrant/vibrant.js"></script>
-    <!-- Serve para gerar o tema do site baseado em alguma imagem -->
+    <footer id="mainFooter">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="hold_credits" class="col-12">
+                    <div id="social_media">
+                        <a href=""><img src="../sources/images/youtube_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/telegram_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/twitter_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/whatsapp_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/messenger_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/facebook_icon.svg" alt="" /></a>
+                        <a href=""><img src="../sources/images/instagram_icon.svg" alt="" /></a>
+                    </div>
+                    <h3 class="text-center">Dr. Lorem Ipsum</h3>
+                    <p class="text-center">Todos direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="../scripts/index.js"></script>
 </body>
 
